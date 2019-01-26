@@ -1,0 +1,18 @@
+[submodule "oxygine-framework"]
+	path = libs/oxygine-framework
+	url = https://github.com/oxygine/oxygine-framework
+[submodule "SDL"]
+	path = libs/SDL
+	url = https://github.com/oxygine/SDL
+[submodule "oxygine-sound"]
+	path = libs/oxygine-sound
+	url = https://github.com/oxygine/oxygine-sound
+[submodule "oxygine-flow"]
+	path = libs/oxygine-flow
+	url = https://github.com/oxygine/oxygine-flow
+[submodule "oxygine-freetype"]
+	path = libs/oxygine-freetype
+	url = https://github.com/oxygine/oxygine-freetype
+[submodule "Box2D"]
+	path = libs/Box2D
+	url = https://github.com/erincatto/Box2D
