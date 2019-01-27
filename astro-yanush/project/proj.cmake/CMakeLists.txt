@@ -58,7 +58,7 @@ if (WIN32) #disable console mode for VC++
 	set_target_properties(astro-yanush PROPERTIES WIN32_EXECUTABLE TRUE)
 endif(WIN32)
 
-target_link_libraries(astro-yanush ${OXYGINESOUND_LIBS} oxygine-flow ${OXYGINE_CORE_LIBS} ${OXYGINE_FREETYPE_LIBS} oxygine-freetype)
+target_link_libraries(astro-yanush ${OXYGINESOUND_LIBS} oxygine-flow ${OXYGINE_CORE_LIBS} oxygine-freetype ${OXYGINE_FREETYPE_LIBS})
 
 
 if (EMSCRIPTEN)
